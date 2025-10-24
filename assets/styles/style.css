@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0;
+    font-family: "Arima", sans-serif;
+}
+
+span {
+    font-size: 20px;
+}
+
+span,
+.pho {
+    color: #121212;
+}
+
+.one {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10svh;
+    border-bottom: 1px solid #969393;
+    background-color: #fafafa;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Arima", sans-serif;
+
+}
+
+.black {
+    background-color: #111111;
+    height: 100svh;
+    width: 50%;
+    position: sticky;
+    top: 58px;
+    color: #fafafa;
+
+}
+
+.black a {
+    color: #fafafa;
+    display: flex;
+}
+
+h3,
+p,
+.black a {
+    padding: 12px;
+    font-family: "Arima", sans-serif;
+}
+
+p {
+    display: flex;
+    line-height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    padding-left: 60px;
+}
+
+.links a {
+    margin: 5px;
+    font-family: "Arima", sans-serif;
+    font-size: 15px;
+}
+
+.all {
+    max-width: 1440px;
+}
+
+/* ____________________________ */
+.bottom {
+    display: flex;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    width: 98%;
+
+}
+
+.pho {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    height: 27.5svh;
+    width: 23%;
+}
+
+
+/* __________________________ */
+
+footer {
+    color: #121212;
+    padding: 12px;
+    border-top: 1px solid #12121232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* __________________________ */
+@media screen and (max-width: 1440px) {
+    .image {
+        width: calc((100% - 30px) / 3);
+        height: 38svh;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .black {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image {
+        width: calc((100% - 15px) / 2);
+        height: 36svh;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .black {
+        width: 140%;
+    }
+
+    .one {
+        width: 102%;
+        height: 10svh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image {
+        width: calc((100% - 15px) / 2);
+        height: 40svh;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .Photographs {
+        margin-left: 0px;
+    }
+
+    .black {
+        display: none;
+    }
+
+    .one {
+        width: 102%;
+        height: 10svh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .image {
+        width: 100%;
+        height: 40svh;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .Photographs {
+        margin-left: 0px;
+    }
+
+    .black {
+        display: none;
+    }
+
+    .one {
+        width: 107%;
+    }
+}
